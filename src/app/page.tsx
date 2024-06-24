@@ -54,8 +54,9 @@ export default function Page() {
       <main className='isolate'>
         {/* Hero section */}
         <div className='relative pt-14'>
+        {/* absolute  */}
           <div
-            className='absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'
+            className='inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80'
             aria-hidden='true'
           >
             <div
